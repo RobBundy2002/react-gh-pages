@@ -26,16 +26,6 @@ const allArticles = [
         link: "/unequalopportunity"
     },
     {
-        title: "From 'Wild Beasts' to Human Beings: Rethinking the Insanity Defense in the Age of Mental Health Awareness",
-        author: "Mikayla Grady",
-        authorLink: "/author/mikayla",
-        category: "Criminal Law",
-        date: "June 2025",
-        issue: "2025-2",
-        excerpt: "A critical analysis of how modern mental health understanding should reshape legal approaches to insanity defense.",
-        link: "/insanitydefense"
-    },
-    {
         title: "This Article is in Progress",
         author: "Sarah Johnson",
         category: "International Law",
@@ -64,7 +54,7 @@ const allArticles = [
     }
 ];
 
-const categories = ["All", "International Law", "Criminal Law", "Constitutional Law", "Environmental Law"];
+const categories = ["All", "International Law", "Constitutional Law", "Environmental Law"];
 
 function Archives() {
     const [searchTerm, setSearchTerm] = useState('');

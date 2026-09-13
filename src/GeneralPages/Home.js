@@ -89,16 +89,6 @@ function Home() {
                             <Link to="/schoolhousesecrets" className="jh-read-link">Read article <span>→</span></Link>
                         </div>
                     </article>
-                    <article className="jh-article jh-article-tertiary">
-                        <div className="jh-article-number">03</div>
-                        <div className="jh-article-content">
-                            <div className="jh-article-topline"><span>Criminal Law</span><span>2025 · Issue 2</span></div>
-                            <h3>From 'Wild Beasts' to Human Beings: Rethinking the Insanity Defense in the Age of Mental Health Awareness</h3>
-                            <p className="jh-article-meta">By Mikayla Grady · June 2025</p>
-                            <p className="jh-article-preview">A critical analysis of how modern mental-health understanding should reshape legal approaches to the insanity defense.</p>
-                            <Link to="/journal" className="jh-read-link">Explore the archive <span>→</span></Link>
-                        </div>
-                    </article>
                 </div>
             </section>
 

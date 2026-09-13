@@ -10,7 +10,6 @@ import Contact from './GeneralPages/Contact';
 import Footer from './Components/Footer';
 import Toast from './Components/Toast';
 import Derek from './Bios/Derek';
-import Mikayla from './Bios/Mikayla';
 import Rob from './Bios/Rob';
 import Evan from './Bios/Evan';
 import Shelby from './Bios/Shelby';
@@ -180,7 +179,6 @@ function App() {
                         <Route path="/contact" element={<Contact />} />
                         <Route path="/jointheteam" element={<JoinTheTeam />} />
                         <Route path="/author/derek" element={<BioFrame name="Derek Tsai"><Derek /></BioFrame>} />
-                        <Route path="/author/mikayla" element={<BioFrame name="Mikayla Grady"><Mikayla /></BioFrame>} />
                         <Route path="/author/rob" element={<BioFrame name="Rob Bundy"><Rob /></BioFrame>} />
                         <Route path="/author/evan" element={<BioFrame name="Evan Proudkii"><Evan /></BioFrame>} />
                         <Route path="/author/shelby" element={<BioFrame name="Shelby Eliasek"><Shelby /></BioFrame>} />

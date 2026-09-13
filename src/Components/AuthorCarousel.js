@@ -47,14 +47,7 @@ const authors = [
         image: willImg,
         bio: 'Constitutional Law & Legal Writing',
         link: '/author/will'
-    },
-    //     id: 'mikayla',
-    //     name: 'Mikayla Grady',
-    //     role: 'Staff Writer',
-    //     image: null,
-    //     bio: 'Criminal Law Specialist',
-    //     link: '/author/mikayla'
-    // }
+    }
 ];
 
 function AuthorCarousel() {
